@@ -1,0 +1,55 @@
+export enum POINT_ENUM {
+
+	// 首页元素的点
+	HOMEPAGE_TITLE = "HOMEPAGE_TITLE",
+	HOMEPAGE_START = "HOMEPAGE_START",
+	HOMEPAGE_SHARE = "HOMEPAGE_SHARE",
+	HOMEPAGE_TRAIN = "HOMEPAGE_TRAIN",
+	// 火车起点
+	TRAIN_STAER_POINT = "TRAIN_POSITION",
+	// 火车转弯路上的点
+	CORNER_POINT = "CORNER_POINT",
+	// 火车直行路上的点
+	STRAIGHT_POINT = "STRAIGHT_POINT",
+	// 开关所在的位置
+	SWITCH_POINT = "SWITCH_POINT",
+	// 直行铁轨
+	STRAIGHT_RAIL_POINT = "STRAIGHT_RAIL_POINT",
+	// 弯道铁轨
+	CORNER_RAIL_POINT = "CORNER_RAIL_POINT",
+	// 左上角title
+	AZHI = "AZHI",
+	// 游戏场景小标题
+}
+
+
+export enum HOMEPAGEPOINT_ENUM {
+	TITLE = "TITLE",
+	START = "START",
+	SHARE = "SHARE",
+	TRAIN = "TRAIN"
+}
+
+
+export enum ITEM_TYPE_ENUM {
+	BUTTON = "BUTTON",
+	TEXT = "TEXT",
+        IMAGE = "IMAGE",
+        VIDEO = "VIDEO",
+        AUDIO = "AUDIO",
+	OTHER = "OTHER",
+}
+
+
+export enum EVENT_ENUM {
+	START = "START",
+	SHARE = "SHARE",
+	NEXT_LEVEL = "NEXT_LEVEL",
+	CHOISE_DIRECTION = "CHOISE_DIRECTION",
+	CONFIRM_CHOISE = "CONFIRM_CHOISE"
+}
+
+export enum CHOISE_ENUM {
+	STRAIGHT = "trackStraight",
+	CORNER = "trackCornerLarge",
+}
